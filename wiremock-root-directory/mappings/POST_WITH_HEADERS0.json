@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/presentation/call/with/headers",
+    "headers": {
+      "Content-Type": {
+        "contains": "text/xml"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/plain"
+    },
+    "body": "POST_WITH_HEADERS0"
+  }
+}

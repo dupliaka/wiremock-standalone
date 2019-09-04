@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/presentation/call/without/authorization"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/plain"
+    },
+    "body": "Some resource was returned successfully."
+  }
+}

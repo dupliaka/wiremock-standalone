@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/presentation/call/with/authorization"
+  },
+  "response": {
+    "status": 401,
+    "headers": {
+      "WWW-Authenticate": "Basic realm=\"Password, please!!!\"",
+      "Content-Type": "text/plain"
+    },
+    "body": "YOU SHALL NOT PASS!!!"
+  }
+}

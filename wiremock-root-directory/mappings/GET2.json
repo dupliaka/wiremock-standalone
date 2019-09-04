@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/presentation/call/without/authorization2"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/xml"
+    },
+    "bodyFileName": "path/to/myfile.xml"
+  }
+}

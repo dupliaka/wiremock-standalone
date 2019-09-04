@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/presentation/call/without/authorization"
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "text/plain"
+    },
+    "body": "Something was created successfully."
+  }
+}

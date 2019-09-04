@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPath": "/presentation/call/with/query/parameters",
+    "queryParameters": {
+      "search": {
+        "contains": "Some_text"
+      }
+    }
+  },
+  "response": {
+    "status": 223,
+    "headers": {
+      "Content-Type": "text/plain"
+    },
+    "body": "sfjktasftasdkftadtflasdg"
+  }
+}
